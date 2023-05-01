@@ -67,7 +67,7 @@ app.put('/personalact/:id', async (req, res) =>{
 })
 
 
-// Insertar productos
+// Insertar personal
 
 app.post('/personal/nuevo', async (req, res) =>{
     let body = req.body;
