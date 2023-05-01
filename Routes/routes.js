@@ -7,6 +7,7 @@ app.use(require('./test'));
 app.use('/', require('./productoNuevo/routeNuevoProducto'));
 app.use('/', require('./personalRef/routePersonalAgregar'));
 app.use('/', require('./sucursalRef/routeSucursal'));
+app.use('/', require('./proveedoresRef/routeProvedores'));
 
 
 module.exports = app;
